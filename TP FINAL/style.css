@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+header {
+    position: relative;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    border: 2px;
+    height: 334px;
+    text-align: center;
+    background: linear-gradient( 207.8deg, var(--black) 16.69%, var(--bitcoin-orange) 100%);
+}
+
+header img {
+    width: 151px;
+    height: 24px;
+    margin-top: 60px;
+    align-self: center;
+}
