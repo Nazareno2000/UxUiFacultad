@@ -9,18 +9,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" media="(max-width: 800px)">
-    <title>TPfinal</title>
+    <title>myaccount</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header>
+        <section class="header-icons-container">
+            <div class="icons">
+                <a href="/"><img src="assets\icons\icon_menu.svg" alt=""></a>
+                <a href="/"><img src="assets/logos/logo_yard_sale.svg" alt=""></a>
+                <a href="/"><img src="assets\icons\icon_shopping_cart_notification.svg" alt=''></a>
 
+            </div>
+        </section>
+        <nav>
+            <section class="nav-logo-container">
+
+            </section>
+        </nav>
+
+    </header>
     <div class="login">
-        <img src="assets/logos/logo_yard_sale.svg" alt="logo" class="logo_imagen">
         <div class="form-container">
-
+            <h1>My account</h1>
 
             <form action="/" class="form">
+
+                <label for="email" class="label">Nombre</label>
+                <input type="text" id="Nombre" placeholder="Nombre" class="input input-email">
+
                 <label for="email" class="label">Email address</label>
                 <input type="text" id="email" placeholder="user@example.cm" class="input input-email">
 
@@ -28,14 +46,11 @@
                 <label for="password" class="label">Password</label>
                 <input type="password" id="password" placeholder="*********" class="input input-password">
 
-                <input type="submit" value="Log in" class="primary-button login-button">
-                <a href="/">Forgot my password</a>
             </form>
 
-            <button class="secondary-button signup-button">Sign up</button>
+            <button class="secondary-button-account">create account</button>
         </div>
     </div>
-
 </body>
 
 </html>
